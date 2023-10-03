@@ -71,7 +71,10 @@ const Header = () => {
         )}
       </div>
 
-      <div className="cursor-pointer font-bold" onClick={handleSignout}>
+      <div
+        className="cursor-pointer font-bold text-gray-600"
+        onClick={handleSignout}
+      >
         {admin && "Sign out"}
       </div>
     </div>
