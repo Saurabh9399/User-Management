@@ -73,7 +73,7 @@ const AuthPage = () => {
       <Header />
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="w-3/12 absolute bg-black bg-opacity-75 py-10 px-7 my-[10%] mx-auto right-0 left-0 rounded-lg"
+        className="w-1/2 md:w-3/12 absolute bg-black bg-opacity-75 py-10 px-7 my-[10%] mx-auto right-0 left-0 rounded-lg"
       >
         <h2 className="text-white mb-5 text-2xl font-bold">
           {isSignIn ? "Sign In" : "Sign Up"}

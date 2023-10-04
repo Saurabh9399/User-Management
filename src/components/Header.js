@@ -36,7 +36,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="h-[5%] w-full px-8 py-2 bg-gray-200 flex justify-between items-center ">
+    <div className="h-[5%] w-full px-8 py-2 bg-gray-200 flex justify-between items-center">
       <div className="text-gray-800 font-bold flex cursor-pointer">
         {!admin ? (
           <svg
