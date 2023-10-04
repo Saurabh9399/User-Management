@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { auth } from "../utils/firebase";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
-import { addAdmin, removeAdmin } from "../utils/adminSlice";
+import { addAdmin, removeAdmin } from "../utils/redux/adminSlice";
 
 const Header = () => {
   const navigate = useNavigate();

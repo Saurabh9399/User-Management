@@ -3,13 +3,12 @@ import { checkValidData } from "../utils/validate";
 import {
   createUserWithEmailAndPassword,
   signInWithEmailAndPassword,
-  updateProfile,
 } from "firebase/auth";
 import { auth } from "../utils/firebase";
 import { useDispatch } from "react-redux";
-import { addAdmin } from "../utils/adminSlice";
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
+import { addAdmin } from "../utils/redux/adminSlice";
 
 const AuthPage = () => {
   const email = useRef(null);
